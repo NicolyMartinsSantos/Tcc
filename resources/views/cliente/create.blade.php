@@ -16,6 +16,7 @@
         Email: <input type="text" name="email">
         <input type="submit" value="Cadastrar">
     </form>
-    <a href="read">Listar Clientes</a>
+    <a href="{{ route('listarCliente') }}">Listar Clientes</a>
+
 </body>
 </html>
